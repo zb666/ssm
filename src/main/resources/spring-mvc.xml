@@ -16,8 +16,6 @@
     <!--2.mvc注解增强:处理器映射器及处理器适配器-->
     <mvc:annotation-driven></mvc:annotation-driven>
 
-
-    <!--3.视图解析器-->
     <bean id="resourceViewResolve" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/"></property>
         <property name="suffix" value=".jsp"></property>
